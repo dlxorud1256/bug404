@@ -1,0 +1,7 @@
+# 의존성 패키지 (requests, selenium, pytest 등)
+requests
+selenium
+pytest
+python-dotenv
+webdriver-manager
+pyjwt
