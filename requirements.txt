@@ -1,7 +1,8 @@
 # 의존성 패키지 (requests, selenium, pytest 등)
-requests
-selenium
-pytest
-python-dotenv
+requests==2.32.5
+selenium==4.39.0
+pytest==9.0.2
+python-dotenv==1.2.1
 webdriver-manager
-pyjwt
+PyJWT==2.10.1
+allure-pytest

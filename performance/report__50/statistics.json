@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 118503,
+    "errorCount" : 686,
+    "errorPct" : 0.5788883,
+    "meanResTime" : 404.90924280398565,
+    "medianResTime" : 146.0,
+    "minResTime" : 61.0,
+    "maxResTime" : 5023.0,
+    "pct1ResTime" : 1194.0,
+    "pct2ResTime" : 1227.9500000000007,
+    "pct3ResTime" : 3001.0,
+    "throughput" : 98.57826292028838,
+    "receivedKBytesPerSec" : 462.1554498127684,
+    "sentKBytesPerSec" : 25.363296187790162
+  },
+  "HTTP Request (가상머신조회)" : {
+    "transaction" : "HTTP Request (가상머신조회)",
+    "sampleCount" : 118503,
+    "errorCount" : 686,
+    "errorPct" : 0.5788883,
+    "meanResTime" : 404.90924280398565,
+    "medianResTime" : 146.0,
+    "minResTime" : 61.0,
+    "maxResTime" : 5023.0,
+    "pct1ResTime" : 1194.0,
+    "pct2ResTime" : 1227.9500000000007,
+    "pct3ResTime" : 3001.0,
+    "throughput" : 98.57826292028838,
+    "receivedKBytesPerSec" : 462.1554498127684,
+    "sentKBytesPerSec" : 25.363296187790162
+  }
+}

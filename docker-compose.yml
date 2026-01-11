@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  api-test:
+    build: .
+    volumes:
+      - .:/app
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: pytest tests/api -s --alluredir=allure-results
+
+  e2e-test:
+    build: .
+    volumes:
+      - .:/app
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: pytest tests/e2e -s --alluredir=allure-results
