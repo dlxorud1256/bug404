@@ -183,7 +183,7 @@ response.ok == False : 4xx/5xx 응답
 
 실패 응답도 정상적으로 반환받아 검증할 수 있도록 raise_on_error 옵션을 추가했습니다.
 
-기본값은 raise_on_error=True로 유지하여 Positive 테스트에서는 기존처럼 빠르게 실패 원인을 확인 가능
+기본값은 raise_on_error=True로 유지하여 Positive 테스트에서는 기존처럼 빠르게 실패 원인을 확인 가능 
 
 Negative 테스트에서는 raise_on_error=False로 호출하여 4xx/5xx 응답을 그대로 반환받아 status_code 및 응답 body를 검증하도록 개선했습니다.
 ## ⌛ 프로젝트 기간
