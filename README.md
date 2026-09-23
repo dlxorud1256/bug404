@@ -187,5 +187,5 @@ response.ok == False : 4xx/5xx 응답
 
 Negative 테스트에서는 raise_on_error=False로 호출하여 4xx/5xx 응답을 그대로 반환받아 status_code 및 응답 body를 검증하도록 개선했습니다.
 ## ⌛ 프로젝트 기간
-2025년 12월 19일 ~ 2026년 1월 7일
+2025년 11월 19일 ~ 2026년 1월 7일
 
